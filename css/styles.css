@@ -536,6 +536,7 @@ img {
 
 .footer-content {
   display: flex;
+  justify-content: space-between;
 }
 
 .page-footer .content {
@@ -543,7 +544,6 @@ img {
 }
 
 .socials-content {
-  margin-left: 70px;
   padding-top: 15px;
 }
 
@@ -552,6 +552,7 @@ img {
 
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
 
   color: var(--primary-light-color);
@@ -594,6 +595,58 @@ img {
 .page-footer .socials-item:hover,
 .page-footer .socials-item:focus {
   background-color: var(--primary-active-color);
+}
+
+.subscribe-content {
+  padding-top: 15px;
+}
+
+.subscribe-title {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.subscribe-wrap {
+  display: flex;
+}
+
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: inherit;
+  color: var(--primary-light-color);
+}
+
+.subscribe-submit {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 28px;
+  margin-left: 12px;
+
+  color: var(--primary-light-color);
+  background-color: var(--primary-active-color);
+
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  transition: background-color 250ms var(--animation-timing-function);
+}
+
+.subscribe-submit:hover,
+.subscribe-submit:focus {
+  background-color: var(--secondary-active-color);
+}
+
+.subscribe-submit-icon {
+  margin-left: 10px;
 }
 
 /* ---------------------MODAL--------------------- */
